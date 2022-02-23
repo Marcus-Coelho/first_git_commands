@@ -1,3 +1,68 @@
 git and commit instructions
 
 ls -a //command to list a hide file or folder
+
+to start basics configs
+
+$ git config --global user.email "marcuscoelho07@gmail.com"
+
+$ git config --global user.name Marcus
+
+$ git add * //add file and change untracked file to stage file
+
+Marcus@MARCUS-COELHO MINGW64 ~/Pessoalmarcus/devprogram/InstrucoesGit (master)
+$ git commit -m "commit inicial"
+[master (root-commit) da09aa6] commit inicial //da09aa6 related to SHA1
+ 2 files changed, 87 insertions(+)
+ create mode 100644 git_other_basics_commands.txt
+ create mode 100644 primeiros_comandos_git.txt
+
+is extemaly necessary to do commit to push a file to a remote repository
+
+command git status //to see status of commits
+
+before push files/folders to server (github) good see git status as 
+"nothing to commig, working tree clean"
+
+to see configs command
+
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.email=marcuscoelho07@gmail.com
+user.name=Marcus
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+
+you can config and unset using 
+
+git config --unset 
+
+$ git remote add origin  git@github.com:Marcus-Coelho/InstrucoesGit.git 
+// this is a repository inside github and this command is to add that to your git to allow push your files
+
+Marcus@MARCUS-COELHO MINGW64 ~/Pessoalmarcus/devprogram/InstrucoesGit (master)
+$ git push origin master
+// this command push all files inside master folder (InstrucoesGit) to github repository
+
+to pull (get from github server to your machine local) is used 
+
+git pull origin master
+
+//this is used to solve conflicts when there is a modification at same line of code
+
+
+
