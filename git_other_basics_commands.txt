@@ -1,0 +1,3 @@
+git and commit instructions
+
+ls -a //command to list a hide file or folder
