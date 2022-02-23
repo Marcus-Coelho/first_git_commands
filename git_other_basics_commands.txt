@@ -54,9 +54,9 @@ git config --unset
 $ git remote add origin  git@github.com:Marcus-Coelho/InstrucoesGit.git 
 // this is a repository inside github and this command is to add that to your git to allow push your files
 
-Marcus@MARCUS-COELHO MINGW64 ~/Pessoalmarcus/devprogram/InstrucoesGit (master)
+Marcus@MARCUS-COELHO MINGW64 ~/Pessoalmarcus/devprogram/first_git_commands (master)
 $ git push origin master
-// this command push all files inside master folder (InstrucoesGit) to github repository
+// this command push all files inside master folder (first_git_commands) to github repository
 
 to pull (get from github server to your machine local) is used 
 
