@@ -53,7 +53,7 @@ command is $ ssh-add id_ed25519
 Enter passphrase for id_ed25519:
 as result has "Identity added: id_ed25519 (marcuscoelho07@gmail.com)"
 
-clonando uma pasta do gitHub
+clone a github folder
 
 first open git bash where you want to clone the github folder, in this case my folder is Pessoalmarcus/devprogram
 
